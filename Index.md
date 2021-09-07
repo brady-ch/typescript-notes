@@ -4,6 +4,9 @@
 [[Everyday Types]]
 [[Compiler and Configuration]]
 [[Rest Parameters]]
-[[Destructuring]]
 [[Classes]]
-
+[[Interfaces]]
+[[Type Casting]]
+[[Unique Operators]]
+[[Generics]]
+[[Decorator]]
