@@ -187,22 +187,22 @@ let huh: (param1: paramType1, param2: paramType2) => returnType;
 
 ### unknown
 Unknown is similar to any, but will have type checking, when it's used, therefore you will need to perform type checking during runtime. This is better than any, but it is best to avoid if possible.
-```typscript
-let huh: unknown;
-let kay: string;
+```javascript
+  let huh: unknown;
+  let kay: string;
 
-huh = 'kay';
-huh = 5; 
-if (typeof huh === 'string') { // this check is needed for compilation
-kay = huh;
-}
+  huh = 'kay';
+  huh = 5; 
+  if (typeof huh === 'string') { // this check is needed for compilation
+	kay = huh;
+  }
 ```
 
 ### never
 This is similar to the void type, however this is used when the function will not return even undefined. This is newer than type void, so when a never type will be used typescript may infer a type void.
-```typscript
-function makeError(message: string, code: number): never {
-throw {message: message, errorCode, code}
-}
+```javascript
+  function makeError(message: string, code: number): never {
+    throw {message: message, errorCode, code}
+  }
 ```
 The above function will never return anything because it will terminate before returning type undefined.

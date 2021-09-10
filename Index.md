@@ -1,6 +1,6 @@
 # Index for Typescript
-[[Getting Started]]
-[[Abstract]]
+[[Programming/Languages/Typescript/Getting Started]]
+[[Programming/Languages/Typescript/Abstract]]
 [[Everyday Types]]
 [[Compiler and Configuration]]
 [[Rest Parameters]]
